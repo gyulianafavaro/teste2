@@ -4,6 +4,11 @@ document. getElementById("botao").addEventListener("click" , exibenome );
 
 document. getElementById("btn-soma").addEventListener("click" , soma );
 
+document. getElementById("btn-dividir").addEventListener("click" , dividir );
+
+document. getElementById("btn-multiplicar").addEventListener("click" , multiplicar);
+
+document. getElementById("btn-subtrair").addEventListener("click" , subtrair );
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
@@ -22,3 +27,23 @@ function soma()
     let numero2 = document.getElementById("num2").value;
     document.getElementById("resultado1").innerHTML = parseFloat(numero1) + parseFloat(numero2);
 }
+
+function dividir()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    document.getElementById("resultado2").innerHTML = parseFloat(numero1) / parseFloat(numero2);
+}
+function multiplicar()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    document.getElementById("resultado3").innerHTML = parseFloat(numero1) x parseFloat(numero2);
+}
+function subtrair()
+{
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    document.getElementById("resultado4").innerHTML = parseFloat(numero1) - parseFloat(numero2);
+}
+
