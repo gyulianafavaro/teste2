@@ -1,1 +1,1 @@
-alert("Seja bem vindo ao Github Pages");
+document.body.style.backgroundColor = "red";
